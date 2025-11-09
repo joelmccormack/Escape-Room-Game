@@ -304,15 +304,15 @@ public class Game
                 {
                     System.out.println("Item is not in this room");
                 }
+                break;
                 
             default:
-                System.out.println("Invalid feature");
+                System.out.println("Invalid item");
                 break;
         }
     }
     public static void interact(String interaction) //this is a command which allows the user to interact with items, features or puzzles, for example adding items to the inventory or opening a chest or unlocking a door or to try a puzzle
     {
-        System.out.println(interaction);
         switch(interaction.toLowerCase()) //switch case for different possible interactions
             {                 
                 case"door":
@@ -330,7 +330,7 @@ public class Game
                 case"chest":
                     if(currentRoom.getSymbol() == 'C')
                     {
-                        System.out.println("You have opened the chest, here is the information you need for the first puzzle in the library:\n C E E A S P");
+                        System.out.println("You have opened the chest, here is the information you need for the first puzzle in the library:\nC E E A S P");
                     }
                     break;
                     
