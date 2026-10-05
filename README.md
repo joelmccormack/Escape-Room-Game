@@ -72,7 +72,3 @@ This project demonstrates:
 - Quest and puzzle system implementation
 - File I/O and data persistence
 - Testing and debugging
-
-## License
-
-[Add your preferred license here]
