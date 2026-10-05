@@ -151,7 +151,3 @@ This project showcases:
 - **Problem Solving** — Implementing game logic, puzzle mechanics, and progression systems
 - **Unit Testing with JUnit** — Writing and running automated tests for core components
 - **Game Loop Architecture** — Structuring an interactive application with a continuous input/output loop
-
-## License
-
-[Add your preferred license here]
